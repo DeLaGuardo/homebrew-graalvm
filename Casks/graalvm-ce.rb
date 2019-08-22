@@ -1,6 +1,6 @@
 cask 'graalvm-ce' do
-  version '19.1.1'
-  sha256 '85711322866ddacda88d3a592c76520188b3d7c40b6c39cd9943856e72eb6c72'
+  version '19.2.0'
+  sha256 '54bd7f7398ee0fb2d1c9eb8a939a5ccb05166cb9c544bc700020fc37dc661483'
 
   # github.com/oracle/graal was verified as official when first introduced to the cask
   url "https://github.com/oracle/graal/releases/download/vm-#{version.downcase}/graalvm-ce-darwin-amd64-#{version.downcase}.tar.gz"
