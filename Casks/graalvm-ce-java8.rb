@@ -24,6 +24,11 @@ cask 'graalvm-ce-java8' do
     or you may want to add its `bin` directory to your `PATH`:
       export PATH=#{TARGET_DIR}/Contents/Home/bin:"$PATH"
 
+    If you are using macOS Catalina and later you may need to remove
+    the quarantine attribute from the bits before you can use them
+    To do this, run the following:
+      sudo xattr -r -d com.apple.quarantine #{TARGET_DIR}
+
     GraalVM CE is licensed under the GPL 2 with Classpath exception:
       https://github.com/oracle/graal/blob/master/LICENSE
 

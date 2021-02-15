@@ -1,6 +1,6 @@
-cask 'graalvm-ce-java8@19.3.1' do
-  version '19.3.1'
-  sha256 'eba3765174f0279ae2dc57c84fc0eb324da778dbfdcc03c6fa8381fe3728aef9'
+cask 'graalvm-ce-java8@21.0.0.2' do
+  version '21.0.0.2'
+  sha256 '25a653a44b3ad63479d7ae35d921c8d39282ff1849243f1afc0ffddd443e9079'
 
   JVMS_DIR = '/Library/Java/JavaVirtualMachines'.freeze
   MODIFIER = 'java8'.freeze

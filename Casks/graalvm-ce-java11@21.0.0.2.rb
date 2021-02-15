@@ -1,9 +1,9 @@
-cask 'graalvm-ce-java8@19.3.1' do
-  version '19.3.1'
-  sha256 'eba3765174f0279ae2dc57c84fc0eb324da778dbfdcc03c6fa8381fe3728aef9'
+cask 'graalvm-ce-java11@21.0.0.2' do
+  version '21.0.0.2'
+  sha256 '6714be01bd17c2c049435c02e19dd2bcba96ea9e44152911ed0082bc968618d6'
 
   JVMS_DIR = '/Library/Java/JavaVirtualMachines'.freeze
-  MODIFIER = 'java8'.freeze
+  MODIFIER = 'java11'.freeze
   TARGET_DIR = "#{JVMS_DIR}/graalvm-ce-#{MODIFIER}-#{version}".freeze
 
   # github.com/graalvm/graalvm-ce-builds was verified as official when first introduced to the cask
